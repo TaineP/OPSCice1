@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/helloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="24sp"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:id="@+id/buttonEnglish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:layout_below="@id/helloTextView"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonSpanish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/helloTextView"
+        android:layout_marginTop="67dp"
+        android:text="Spanish" />
+
+    <Button
+        android:id="@+id/buttonFrench"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/helloTextView"
+        android:layout_marginTop="118dp"
+        android:text="French" />
+
+    <Button
+        android:id="@+id/buttonChinese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/helloTextView"
+        android:layout_marginTop="169dp"
+        android:text="Chinese" />
+
+    <Button
+        android:id="@+id/buttonJapanese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/helloTextView"
+        android:layout_marginTop="217dp"
+        android:text="Japanese" />
+
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MultilingualApp</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="english">English</string>
+    <!-- Define strings for other languages -->
+    <!-- For example, spanish, french, etc. -->
+</resources>
